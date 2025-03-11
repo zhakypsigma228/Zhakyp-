@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "56-55";
+    src: url("56-55.ttf") format("truetype");
+}
+
+body {
+    font-family: "56-55", sans-serif;
+    background-color: #fffaf0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    font-family: "56-55", sans-serif;
+}
+
+button:hover {
+    background: #ccc;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+h1, h2 {
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+    transition: background 0.3s, color 0.3s;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
+.dark-mode button {
+    background: #555;
+    color: #fff;
+}
+
+.dark-mode button:hover {
+    background: #777;
+}
+
+.dark-mode table {
+    background-color: #222;
+}
+
+.dark-mode th, .dark-mode td {
+    border: 1px solid #fff;
+    color: #fff;
+}
