@@ -1,0 +1,46 @@
+Index.Html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <button id="toggle-language">🇷🇺 / 🇬🇧</button>
+            <button id="toggle-dark-mode">🌙</button>
+        </div>
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Photo">
+            <h1 id="name">Portfolio</h1>
+        </div>
+        <section>
+            <h2 id="about-title">About Me</h2>
+            <p id="about-text">
+                A hardworking student with a passion for business and global studies who was immorally forced to make this website.
+            </p>
+        </section>
+        <section>
+            <h2 id="projects-title">Projects</h2>
+            <p>Owlypia Boston Global Round 2023</p>
+        </section>
+        <section>
+            <h2 id="contacts-title">Contacts</h2>
+            <table>
+                <tr>
+                    <th>Phone</th>
+                    <td>87753823423</td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>zhakypzhaparov@gmail.com</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
